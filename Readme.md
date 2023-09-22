@@ -1,4 +1,4 @@
-# Multi-Tax-Banking-Java-SpringBoot
+# Multi-Tax-Banking-Java-SpringBoot 🚀 🔄 🌐
 
 Codificação em Java para uma aplicação de Cálculos de Multi Impostos Banking para aplicação com uso de Frameowrk SpringBoot com melhores práticas de programação que permite calcular diversos tipos de impostos e taxas relacionadas a Empréstimos Bancários.
 
@@ -37,23 +37,25 @@ O sistema é desenvolvido usando o paradigma de Programação Orientada a Objeto
 - `/emprestimos/calcular-impostos`: Calcula um imposto específico com base na solicitação.
 
 - Corpo da Requisição em Json do Método Post:
+```
 {
     "taxType": "IOF",
     "baseValue": 18000,
     "days": 10,
     "annualProfit": 5000
 }
-
+```
 
 - `/emprestimos/calcular-todos-impostos`: Calcula todos os impostos com base na solicitação.
 
 - Corpo da Requisição em Json do Método Post:
+```
 {
     "baseValue": 18000,
     "days": 10,
     "annualProfit": 5000
 }
-
+```
 
 ### Requisições
 
