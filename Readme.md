@@ -6,7 +6,7 @@ Codificação em Java para uma aplicação de Cálculos de Multi Impostos Bankin
 
 ### Strategy Pattern
 
-O sistema utiliza o Padrão de Projeto Strategy para calcular diferentes tipos de impostos. O interface `CalculadoraImpostosStrategy` define a assinatura do método para calcular impostos. Isso permite que diferentes estratégias de cálculo possam ser implementadas e trocadas de forma dinâmica.
+O sistema utiliza o Padrão de Projeto Strategy para calcular diferentes tipos de impostos. A interface `CalculadoraImpostosStrategy` define a assinatura do método para calcular impostos. Isso permite que diferentes estratégias de cálculo possam ser implementadas e trocadas de forma dinâmica.
 
 ### Dependency Injection
 
