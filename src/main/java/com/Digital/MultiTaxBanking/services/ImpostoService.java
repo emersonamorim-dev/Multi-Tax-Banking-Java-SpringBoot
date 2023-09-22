@@ -59,7 +59,7 @@ public class ImpostoService {
     public BigDecimal calculateSpecificTax(EmprestimoRequest loanRequest) {
         CalculadoraImpostosStrategy strategy = taxStrategies.get(loanRequest.getTaxType());
         if (strategy == null) {
-            throw new IllegalArgumentException("Invalid tax type");
+            throw new IllegalArgumentException("Tipo de imposto inválido");
         }
         return strategy.calculate(loanRequest.getBaseValue(), loanRequest.getDays(), loanRequest.getAnnualProfit());
     }
